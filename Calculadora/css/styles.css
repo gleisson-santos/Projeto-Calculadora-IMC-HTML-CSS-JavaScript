@@ -14,22 +14,26 @@ body {
     align-items: center;
     min-height: 100vh;
     color: #fff ;
-    
-    
    }
   
+img {
+   width: 350px;
+   height: 100px;
+   padding: 0;
+}
    
 .hide {
    display: none !important;
 }
    
 .container {
-
    min-width: 400px;
    min-height: 400px;
-   background-color: #1d1e33;
+   background-color: rgba(118, 128, 119, 0.3);
    padding: 2rem;
- }
+   border: 1px solid #db6212;
+   border-radius: 20px;
+}
 
  /*  IMC Form */
 #calc-container h2 {
@@ -41,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 20px;
  }
 
  .form-control {
@@ -58,6 +63,7 @@ body {
 
  .form-control input {
     padding: 1rem 0.5rem;
+    border-radius: 10px;
  }
 
  .action-control {
@@ -77,6 +83,8 @@ body {
     cursor: pointer;
     opacity: 0.9;
     flex: 1;
+    
+
  }
 
 
