@@ -6,23 +6,29 @@
  }
 
 body {
-    background-color: #090e22;
+    /* background-color: #090e22; */
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     color: #fff ;
- }
-
+    
+    
+   }
+  
+   
 .hide {
-    display: none !important;
- }
-
+   display: none !important;
+}
+   
 .container {
-    min-width: 400px;
-    min-height: 400px;
-    background-color: #1d1e33;
-    padding: 2rem;
+
+   min-width: 400px;
+   min-height: 400px;
+   background-color: #1d1e33;
+   padding: 2rem;
  }
 
  /*  IMC Form */
