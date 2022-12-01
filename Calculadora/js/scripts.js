@@ -36,6 +36,13 @@ const data = [
       info: "Obesidade grave",
       obesity: "III",
     },
+    // {
+    //   min: 40,
+    //   max: 150,
+    //   classification: "Maior que 45,0",
+    //   info: "Super, Mega acima do peso..Trageeedia",
+    //   obesity: "IIII",
+    // },
   ];
 
   //Seleção dos elementos
@@ -169,6 +176,10 @@ const data = [
         imcNumber.classList.add("high");        
         imcinfo.classList.add("high");
         break;        
+      // case "Super, Mega acima do peso..Trageeedia":
+      //   imcNumber.classList.add("adeus");        
+      //   imcinfo.classList.add("adeus");
+      //   break;        
     }
 
     showOrdeResults();
