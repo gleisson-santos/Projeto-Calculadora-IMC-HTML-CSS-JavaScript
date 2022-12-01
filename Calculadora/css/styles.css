@@ -166,3 +166,34 @@ img {
 .high {
     color: #db1912;
 }
+
+footer {
+   padding: 1rem;
+}
+
+
+footer h3 {
+   font-size: 13px;
+   text-align: center;
+   color: #fff;
+}
+
+.foo {
+   display: flex;
+   margin-bottom: 20px;
+   justify-content: center;
+   margin: 2px;
+}
+
+.foo a {
+   padding: 0.3rem;
+   font-size: 25px;
+   text-align: none;
+   color: #fff;
+   border-bottom: 1px solid #dfdfdf;
+}
+
+
+.foo a:hover {
+   border-bottom: 2px solid rgb(255, 240, 31);
+}
